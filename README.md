@@ -18,3 +18,6 @@
 
 # Funcion
   nos permite reutilizar lineas de codigo.
+
+# Arreglos.
+  Para agregar un elemento se usa arreglo.push(valor nuevo)
