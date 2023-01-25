@@ -91,4 +91,7 @@ let orden2 = new Orden();
 orden2.agregarProducto(zapatillas);
 orden2.agregarProducto(casco);
 orden2.agregarProducto(arnes);
+orden2.agregarProducto(zapatillas);
+orden2.agregarProducto(casco);
+orden2.agregarProducto(arnes);
 orden2.mostrarOrden();
