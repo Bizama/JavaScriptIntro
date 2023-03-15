@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+
+<body>
+    <h1 id="titulo">Manejo DOM con JavaScript</h1>
+    <br />
+    <form id="formulario">
+        Nombre: <input type="text" id="nombre" />
+        <br /><br />
+        Apellido: <input type="text" id="apellido" />
+    </form>
+    <script>
+        // useCapture. 
+        const form = document.getElementById('formulario');
+        form.addEventListener('focus', (evento) => {
+            evento.target.style.background = 'pink';
+        }, true);
+        form.addEventListener('blur', (evento) => {
+            evento.target.style.background = "";
+        }, true); // EL true va para que lo aplicado en el formulario aplique para los elementos internos. 
+    </script>
+</body>

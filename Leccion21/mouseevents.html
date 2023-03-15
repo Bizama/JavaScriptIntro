@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+
+<body>
+    <h1 id="titulo" onmousedown="rojo(this)" onmouseup="azul(this)" onclick="verde(this)">Manejo DOM con JavaScript</h1>
+    <br />
+    <script>
+        function rojo(element) {
+            console.log('rojo');
+            element.style.color = 'red';
+        }
+        function azul(element) {
+            console.log('azul');
+            element.style.color = 'blue';
+        }
+        function verde(element){
+            console.log('verde');
+
+            element.style.color = 'green';
+        }
+        // mouse up es como release, mouse down es como press. mouseover tambien existe.
+    </script>
+</body>
+
+</html>

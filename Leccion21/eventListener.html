@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Manejo DOM con JavaScript</title>
+</head>
+
+<body>
+    <h1 id="titulo">Manejo DOM con JavaScript</h1>
+    <br />
+    Nombre: <input type="text" id="nombre"/>
+    <br /><br />
+    Apellido: <input type="text" id="apellido"/>
+    <script>
+        document.getElementById('nombre').addEventListener('focus', (event) => {
+            event.target.style.background = 'pink';
+        }); // Esto no es reutilizable como en el apellido de abajo. 
+        document.getElementById('nombre').addEventListener('blur', (event)=>{
+            event.target.style.background = '';
+        });
+        // document.getElementById('apellido').addEventListener('focus', cambiar);
+        // document.getElementById('apellido').addEventListener('blur', volver);
+        // Tambien podemos usar funciones flecha. 
+        
+        function cambiar(evento){
+            evento.target.style.background = 'yellow';
+        }
+        function volver(evento){
+            evento.target.style.background = 'white';
+        }
+    </script>
+</body>
+
+</html>
