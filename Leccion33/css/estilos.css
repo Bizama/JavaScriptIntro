@@ -1,0 +1,15 @@
+h1{
+    color: red;
+    text-align: center;
+}
+h2{
+    color:blue;
+}
+p{
+    color:purple;
+}
+div{
+    border: 10px solid palevioletred;
+    background-color: beige;
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+/*Todos los elementos de la pagina seguiran lo del * */
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+h1 {
+    color: red;
+    text-align: center;
+    margin: 15px; /*esto sobreescribe lo primero */
+}
+#titulo-principal{ /*Estilo unico! para un solo elemento*/
+    color: turquoise;
+    text-align: center;
+    margin: 15px;
+}
+h2 {
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+/*Clase de css*/
+.tarjeta {
+    border: 10px solid palevioletred;
+    background-color: beige;
+    text-align: center;
+    margin: 10px 115px;
+    padding: 15px;
+}
+.nombre{
+    color: green;
+}

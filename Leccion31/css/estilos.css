@@ -1,0 +1,26 @@
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    /*border-spacing: 5px;*/
+}
+table{
+    width: 100%;
+}
+caption{
+    color: #e63946;
+    font-family: 'Trocchi', serif;
+    line-height: 70px;
+    font-size: 45px;
+}
+th{
+    color: #f1feae;
+    background-color: navy;
+}
+/* reglones pares*/
+tr:nth-child(even){
+    background-color: #f1faee;
+}
+tr:nth-child(odd){
+    background-color: rgb(125, 125, 190);
+}
